@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tool page</title>
+</head>
+<body>
+    <h1>tool page</h1>
+
+    {% if error %}
+      <p style="color:red;">{{ error }}</p>
+    {% endif %}
+    
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        max_dom：
+        <select name="max_dom">
+          <option value="4" {% if max_dom == '4' %}selected{% endif %}>4</option>
+          <option value="3" {% if max_dom == '3' %}selected{% endif %}>3</option>
+          <option value="2" {% if max_dom == '2' %}selected{% endif %}>2</option>          
+        </select><br><br>
+        
+        region geojson：<input type="file" name="file"><br><br>
+        <input type="submit" value="click to calculate">
+    </form>
+
+    {% if result %}
+      <h2>domain result：</h2>
+        {% for key, value in result.items %}
+          <div><strong>{{ key }}: </strong> {{ value }}</li>
+        {% endfor %}
+    {% endif %}
+
+    {% if result %}
+      <h2>aermap result：</h2>
+        {% for key, value in result_aermap.items %}
+          <div><strong>{{ key }}: </strong> {{ value }}</li>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

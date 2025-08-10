@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 09:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/model_wrf_stilt/models.py:26
+msgid "模型名称"
+msgstr "模型名称"
+
+#: apps/model_wrf_stilt/models.py:27
+msgid "描述信息"
+msgstr "描述信息"
+
+#: apps/model_wrf_stilt/models.py:28
+msgid "嵌套域数"
+msgstr "嵌套域数"
+
+#: apps/model_wrf_stilt/models.py:29
+msgid "计算STILT的WRF域数"
+msgstr "计算STILT的WRF域数"
+
+#: apps/model_wrf_stilt/models.py:30
+msgid "dx(m)"
+msgstr "dx(m)"
+
+#: apps/model_wrf_stilt/models.py:31
+msgid "dy(m)"
+msgstr "dy(m)"
+
+#: apps/model_wrf_stilt/models.py:32
+msgid "时间间隔(秒)"
+msgstr "时间间隔(秒)"
+
+#: apps/model_wrf_stilt/models.py:33
+msgid "X方向分辨率"
+msgstr "X方向分辨率"
+
+#: apps/model_wrf_stilt/models.py:34
+msgid "Y方向分辨率"
+msgstr "Y方向分辨率"
+
+#: apps/model_wrf_stilt/models.py:35
+msgid "计算核心数"
+msgstr "计算核心数"
+
+#: apps/model_wrf_stilt/models.py:36
+msgid "WRF文件保留天数"
+msgstr "WRF文件保留天数"
+
+#: apps/model_wrf_stilt/models.py:37
+msgid "i_parent_start"
+msgstr "i_parent_start"
+
+#: apps/model_wrf_stilt/models.py:38
+msgid "j_parent_start"
+msgstr "j_parent_start"
+
+#: apps/model_wrf_stilt/models.py:39
+msgid "e_we"
+msgstr "e_we"
+
+#: apps/model_wrf_stilt/models.py:40
+msgid "e_sn"
+msgstr "e_sn"
+
+#: apps/model_wrf_stilt/models.py:41
+msgid "是否启用obsgrid"
+msgstr "是否启用obsgrid"
+
+#: apps/model_wrf_stilt/models.py:43
+msgid "obsgrid地面站请求URL配置"
+msgstr "地面站请求URL配置"
+
+#: apps/model_wrf_stilt/models.py:46
+msgid "数据源"
+msgstr "数据源"
+
+#: apps/model_wrf_stilt/models.py:50
+msgid "obsgrid高空大气数据源URL"
+msgstr "obsgrid高空大气数据源URL"
+
+#: apps/model_wrf_stilt/models.py:54
+msgid "设置为空则不启用obsgrid高空大气数据"
+msgstr "设置为空则不启用obsgrid高空大气数据"
+
+#: apps/model_wrf_stilt/models.py:58
+msgid "fnl数据源URL"
+msgstr "fnl数据源URL"
+
+#: apps/model_wrf_stilt/models.py:62
+msgid "gfs数据源URL"
+msgstr "gfs数据源URL"
+
+#: apps/model_wrf_stilt/models.py:65
+msgid "延迟小时数"
+msgstr "延迟小时数"
+
+#: apps/model_wrf_stilt/models.py:69
+msgid "AERMAP数据文件tif"
+msgstr "AERMAP数据文件tif"
+
+#: apps/model_wrf_stilt/models.py:72
+msgid "上传AERMAP数据文件tif"
+msgstr "上传AERMAP数据文件tif"
+
+#: apps/model_wrf_stilt/models.py:78
+msgid "example: 430399 3983176 50 587613 4154016 50"
+msgstr "example: 430399 3983176 50 587613 4154016 50"
+
+#: apps/model_wrf_stilt/models.py:84
+msgid "example: 509006 4068596 509006 4068596 50 4"
+msgstr "example: 509006 4068596 509006 4068596 50 4"
+
+#: apps/model_wrf_stilt/models.py:88
+msgid "WRF-STILT模型"
+msgstr "WRF-STILT模型"
+
+#: apps/model_wrf_stilt/models.py:89
+msgid "WRF-STILT模型管理"
+msgstr "WRF-STILT模型管理"
+
+#: apps/model_wrf_stilt/models.py:97
+msgid "区域名称"
+msgstr "区域名称"
+
+#: apps/model_wrf_stilt/models.py:98
+msgid "最小经度"
+msgstr "最小经度"
+
+#: apps/model_wrf_stilt/models.py:99
+msgid "最大经度"
+msgstr "最大经度"
+
+#: apps/model_wrf_stilt/models.py:100
+msgid "最小纬度"
+msgstr "最小纬度"
+
+#: apps/model_wrf_stilt/models.py:101
+msgid "最大纬度"
+msgstr "最大纬度"
+
+#: apps/model_wrf_stilt/models.py:102
+msgid "区域边界 GeoJSON"
+msgstr "区域边界 GeoJSON"
+
+#: apps/model_wrf_stilt/models.py:105
+msgid "区域"
+msgstr "区域"
+
+#: apps/model_wrf_stilt/models.py:106
+msgid "区域管理"
+msgstr "区域管理"
+
+#: apps/model_wrf_stilt/models.py:116
+msgid "受体名称"
+msgstr "受体名称"
+
+#: apps/model_wrf_stilt/models.py:117 apps/model_wrf_stilt/models.py:168
+msgid "纬度"
+msgstr "纬度"
+
+#: apps/model_wrf_stilt/models.py:118 apps/model_wrf_stilt/models.py:169
+msgid "经度"
+msgstr "经度"
+
+#: apps/model_wrf_stilt/models.py:119
+msgid "高度（米）"
+msgstr "高度（米）"
+
+#: apps/model_wrf_stilt/models.py:124
+msgid "所属区域"
+msgstr "所属区域"
+
+#: apps/model_wrf_stilt/models.py:126
+msgid "备注"
+msgstr "备注"
+
+#: apps/model_wrf_stilt/models.py:129
+msgid "受体"
+msgstr "受体"
+
+#: apps/model_wrf_stilt/models.py:130
+msgid "受体管理"
+msgstr "受体管理"
+
+#: apps/model_wrf_stilt/models.py:140
+msgid "污染源名称"
+msgstr "污染源名称"
+
+#: apps/model_wrf_stilt/models.py:143
+msgid "污染源类别"
+msgstr "污染源类型"
+
+#: apps/model_wrf_stilt/models.py:146
+msgid "电力生产"
+msgstr "电力生产"
+
+#: apps/model_wrf_stilt/models.py:147
+msgid "电力热力源其他"
+msgstr "电力热力源其他"
+
+#: apps/model_wrf_stilt/models.py:148
+msgid "工业源"
+msgstr "工业源"
+
+#: apps/model_wrf_stilt/models.py:149
+msgid "移动源"
+msgstr "移动源"
+
+#: apps/model_wrf_stilt/models.py:150
+msgid "油品储运销"
+msgstr "油品储运销"
+
+#: apps/model_wrf_stilt/models.py:151
+msgid "生活源"
+msgstr "生活源"
+
+#: apps/model_wrf_stilt/models.py:152
+msgid "农业源"
+msgstr "农业源"
+
+#: apps/model_wrf_stilt/models.py:153
+msgid "扬尘源"
+msgstr "扬尘源"
+
+#: apps/model_wrf_stilt/models.py:154
+msgid "废弃物处理源"
+msgstr "废弃物处理源"
+
+#: apps/model_wrf_stilt/models.py:155
+msgid "生物质开放燃烧源"
+msgstr "生物质开放燃烧源"
+
+#: apps/model_wrf_stilt/models.py:156
+msgid "其他"
+msgstr "其他"
+
+#: apps/model_wrf_stilt/models.py:161
+msgid "时间类型"
+msgstr "时间类型"
+
+#: apps/model_wrf_stilt/models.py:163
+msgid "小时"
+msgstr "小时"
+
+#: apps/model_wrf_stilt/models.py:164
+msgid "年"
+msgstr "年"
+
+#: apps/model_wrf_stilt/models.py:170
+msgid "污染源排放量(t)"
+msgstr "污染源排放量(t)"
+
+#: apps/model_wrf_stilt/models.py:171
+#, fuzzy
+#| msgid "烟囱高度（米）"
+msgid "烟囱高度(m)"
+msgstr "烟囱高度(m)"
+
+#: apps/model_wrf_stilt/models.py:172
+msgid "烟囱内径(m)"
+msgstr "烟囱内径(m)"
+
+#: apps/model_wrf_stilt/models.py:174
+msgid "排气温度(K)"
+msgstr "排气温度(K)"
+
+#: apps/model_wrf_stilt/models.py:180
+msgid "排气速度(m/s)"
+msgstr "排气速度(m/s)"
+
+#: apps/model_wrf_stilt/models.py:190
+msgid "污染源"
+msgstr "污染源"
+
+#: apps/model_wrf_stilt/models.py:191
+msgid "污染源管理"
+msgstr "污染源管理"
+
+#: apps/model_wrf_stilt/models.py:203
+msgid "污染源ID"
+msgstr "污染源ID"
+
+#: apps/model_wrf_stilt/models.py:209
+msgid "受体点ID"
+msgstr "受体点ID"
+
+#: apps/model_wrf_stilt/models.py:211
+msgid "时间"
+msgstr "创建时间"
+
+#: apps/model_wrf_stilt/models.py:212
+msgid "贡献值"
+msgstr "贡献值"
+
+#: apps/model_wrf_stilt/models.py:213
+msgid "贡献占比%"
+msgstr "贡献占比%"
+
+#: apps/model_wrf_stilt/models.py:215
+msgid "敏感性贡献值"
+msgstr "敏感性贡献值"
+
+#: apps/model_wrf_stilt/models.py:216
+msgid "敏感性贡献占比%"
+msgstr "敏感性贡献占比%"
+
+#: apps/model_wrf_stilt/models.py:217
+msgid "距离"
+msgstr "距离"
+
+#: apps/model_wrf_stilt/models.py:220
+msgid "污染源贡献数据"
+msgstr "污染源贡献数据"
+
+#: apps/model_wrf_stilt/models.py:221
+msgid "污染源贡献数据管理"
+msgstr "污染源贡献数据管理"
+
+#: server/settings.py:132
+msgid "English"
+msgstr "英语"
+
+#: server/settings.py:133
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#: utils/model.py:58
+msgid "创建时间"
+msgstr "创建时间"
+
+#: utils/model.py:61
+msgid "修改时间"
+msgstr "修改时间"
+
+#: utils/model.py:64
+msgid "是否删除"
+msgstr "是否删除"
+
+#: utils/model.py:64
+msgid "选中表示删除"
+msgstr "选中表示删除"
+
+#~ msgid "PM10排放"
+#~ msgstr "PM10排放"
+
+#~ msgid "烟囱直径"
+#~ msgstr "烟囱直径"
+
+#~ msgid "烟囱气体温度（K）"
+#~ msgstr "烟囱气体温度（K）"
+
+#~ msgid "烟囱出口速度（m/s）"
+#~ msgstr "烟囱出口速度（m/s）"
+
+#~ msgid "烟囱气体温度"
+#~ msgstr "烟囱气体温度"
+
+#~ msgid "烟囱出口速度"
+#~ msgstr "烟囱出口速度"
+
+#~ msgid "模型管理后台"
+#~ msgstr "模型管理后台"
+
+#~ msgid "排放率"
+#~ msgstr "排放率"

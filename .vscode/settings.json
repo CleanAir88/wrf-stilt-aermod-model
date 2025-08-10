@@ -1,0 +1,27 @@
+
+{
+  // python
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  // black 配置
+  "black-formatter.args": ["--line-length", "100", "--unstable"],
+  // isort 配置
+  "isort.args": ["--profile", "black"],
+  // 开启 flake8 静态检查
+  "flake8.enabled": true,
+  "flake8.args": ["--max-line-length=100"],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportIncompatibleVariableOverride": "none"
+  },
+  "python.analysis.typeCheckingMode": "off",
+  "cursorpyright.analysis.diagnosticSeverityOverrides": {
+    "reportIncompatibleVariableOverride": "none"
+  },
+  "cursorpyright.analysis.typeCheckingMode": "off",
+}

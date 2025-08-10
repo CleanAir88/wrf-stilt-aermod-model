@@ -1,0 +1,60 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 4,
+ start_date = '2025-08-04_18:00:00', '2025-08-04_18:00:00', '2025-08-04_18:00:00', '2025-08-04_18:00:00',
+ end_date = '2025-08-05_00:00:00', '2025-08-05_00:00:00', '2025-08-05_00:00:00', '2025-08-05_00:00:00',
+ interval_seconds = 21600,
+ io_form_geogrid = 2,
+ active_grid = .true., .true., .true., .true.,
+ subgrid_ratio_x = 1,
+ subgrid_ratio_y = 1,
+ opt_output_from_geogrid_path = './',
+ debug_level = 0,
+ nocolons = .FALSE.
+/
+
+&geogrid
+ parent_id         =    1,   1,   2,   3,
+ parent_grid_ratio =    1,   3,   3,   3,
+ i_parent_start    =    1, 126,  31,  64,
+ j_parent_start    =    1,  92,  19,  73,
+ s_we              =    1,   1,   1,   1,
+ e_we              =  245, 127, 211, 196,
+ s_sn              =    1,   1,   1,   1,
+ e_sn              =  195, 127, 187, 217,
+ geog_data_res = 'default', 'default', 'default', 'default',
+ dx = 27000,
+ dy = 27000,
+ map_proj = 'lambert',
+ ref_lat   =  34.0,
+ ref_lon   =  110.0,
+ truelat1  =  25.0,
+ truelat2  =  40.0,
+ stand_lon =  110.0,
+ geog_data_path = '../WPS_GEOG/'
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = '/home/wrf_model/data/ungrib_file/FILE'
+/
+
+&metgrid
+ fg_name = '/home/wrf_model/data/ungrib_file/FILE',
+ io_form_metgrid = 2,
+ opt_output_from_metgrid_path = '/home/wrf_model/data/metgrid_file',
+/
+
+&mod_levs
+ press_pa = 201300 , 200100 , 100000 ,
+             95000 ,  90000 ,
+             85000 ,  80000 ,
+             75000 ,  70000 ,
+             65000 ,  60000 ,
+             55000 ,  50000 ,
+             45000 ,  40000 ,
+
+             25000 ,  20000 ,
+             15000 ,  10000 ,
+              5000 ,   1000
+/

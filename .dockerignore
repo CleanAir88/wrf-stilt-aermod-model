@@ -1,0 +1,27 @@
+# 排除所有目录中的虚拟环境和缓存
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.coverage
+**/.tox/
+**/.mypy_cache/
+**/.eggs/
+**/*.egg-info/
+**/.DS_Store
+
+# 排除git目录
+**/.git/
+
+# 排除node模块
+**/node_modules/
+
+# 排除数据文件和临时文件
+**/*.log
+**/*.sqlite3
+**/media/
+**/static/
+**/tmp/
+**/temp/
