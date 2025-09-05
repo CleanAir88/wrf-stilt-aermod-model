@@ -39,6 +39,6 @@ https://www.ready.noaa.gov/HYSPLIT_register.php(https://www.ready.noaa.gov/HYSPL
 
 After registering, download the executables, unzip them, and copy to:
 ```
-bin/linux_x64/* exe/
+build/bin/linux_x64/* exe/
 ```
 Or place them directly into the Docker image under ${STILT_WD}/exe/.
